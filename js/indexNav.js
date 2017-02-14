@@ -16,10 +16,10 @@ document.write('\
                         <a href="#page-top"></a>\
                     </li>\
                     <li class="page-scroll">\
-                        <a href="./sfwrdev.html">Software Development</a>\
+                        <a href="./sfwrdev.html#portfolio">Software Development</a>\
                     </li>\
                     <li class="page-scroll">\
-                        <a href="./video.html">Videography</a>\
+                        <a href="./video.html#portfolio">Videography</a>\
                     </li>\
 					<li class="page-scroll">\
                         <a href="#contact">Contact</a>\
