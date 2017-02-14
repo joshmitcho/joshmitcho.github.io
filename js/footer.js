@@ -39,7 +39,7 @@ document.write('\
             <div class="container">\
                 <div class="row">\
                     <div class="col-lg-12">\
-                        <a href=" https://github.com/joshmitcho/joshmitcho.github.io" target="_blank">Source Code</a> <p><strike>Copyright &copy; </strike> Josh Mitchell 2017</p>\
+                        <a href=" https://github.com/joshmitcho/joshmitcho.github.io" target="_blank">Source Code</a> <p><strike>Copyright &copy; </strike> Josh P Mitchell 2017</p>\
                     </div>\
                 </div>\
             </div>\
