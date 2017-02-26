@@ -45,6 +45,12 @@ h6 {
   text-transform: uppercase;
   font-weight: 900;
 }
+.aboutIcons img {
+  height: 40px;
+}
+.aboutIcons li {
+  font-size: 1.5em;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
