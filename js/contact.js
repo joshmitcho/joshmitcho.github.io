@@ -15,8 +15,6 @@ document.write('\
 				<input type="hidden" name="_next" value="/thanks.html" /> <br>\
 				<input type="submit" value="Send">\
 			</form>\
-			or<br>\
-			<a href="mailto:josh@joshpmitchell.ca" target="_blank" class="btn btn-lg btn-success">Email Me Directly &nbsp<i class="fa fa-envelope" aria-hidden="true"></i></a>\
         </div>\
     </section>\
 ');
