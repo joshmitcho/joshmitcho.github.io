@@ -22,6 +22,10 @@ hr {
   border-color: white;
 }
 
+.btn-outline-light {
+  margin-bottom: 1rem;
+}
+
 .fa-times {
   margin-right: 0.5rem;
 }
@@ -327,12 +331,15 @@ a:focus, a:hover, a:active {
   border-width: 2px;
 }
 
-.bg-primary {
-  background-color: #0395DE !important;
+#about {
   background-image: url(../img/main_00000.jpg) !important;
   background-size: contain;
   background-position: bottom center;
   background-repeat: no-repeat;
+}
+
+.bg-primary {
+  background-color: #0395DE !important;
 }
 
 .bg-secondary {
