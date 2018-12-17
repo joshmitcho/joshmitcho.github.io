@@ -1,88 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Software/Web Development & Videography">
     <meta name="author" content="Josh P Mitchell">
 
-    <title>Josh P Mitchell - Software Developer & Videographer</title>
+    <title>Josh P Mitchell - Mobile App & Web Developer</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-</head>
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+	
+	<link rel="icon" href="img/favicon.ico">
 
-<body id="page-top" class="index">
- 
-	<!-- Navigation & Header-->
-    <script src="js/indexNav.js"></script>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <h2 class="navbar-brand">Josh P Mitchell</h2>
+		<ul class="list-inline mb-0">
+			<li class="list-inline-item">
+				<a href="https://github.com/joshmitcho" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle">
+				  <i class="fab fa-fw fa-github"></i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCPrLH3S2Wuy35C7b-9Tl04w" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle" >
+                  <i class="fas fa-music"></i>
+                </a>
+            </li>
+			<li class="list-inline-item">
+				<a href="https://linkedin.com/in/joshpmitchell" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle" >
+					<i class="fab fa-fw fa-linkedin-in"></i>
+				</a>
+			</li>
+		</ul>
+      </div>
+    </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Josh P Mitchell</span>
-						<div class="col-lg-8 col-lg-offset-2 text-center">
-							<a href="video.html#portfolio" class="btn btn-lg btn-outline">Videography</a><br>
-							<a href="sfwrdev.html#portfolio" class="btn btn-lg btn-outline">Software Development</a><br>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <h1 class="text-uppercase mb-0">Josh P Mitchell</h1>
+        <br>
+        <h2 class="mb-0">Mobile App & Web Developer</h2>
+      </div>
     </header>
 
-	
-	
-    <!-- Contact Section -->
-    <script src="js/contact.js"></script>
-	<script src="js/tempEmail.js"></script>
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio & Projects</h2>
+        <br>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/vrbr.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/macanatomy.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/nerf_00000.png" alt="">
+            </a>
+          </div>
+          <!--<div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+            </a>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <div class="row">
+          <div class="col-lg-6 ml-auto">
+			<h3>Education </h3>
+				<h4>McMaster University</h4>
+				<h5>Bachelor of Software Engineering</h5>
+				Final Year, Expected Completion: April 2019
+			<hr>
+            <h3>Work Experience</h3> 
+				<h5>Education Program in Anatomy, McMaster University</h5>
+				<strong>Mobile App Developer (May 2018 - Sept 2018)</strong>
+				<ul>
+					<li>Bolster programming skills in C# and Unity though the development of a stereoscopic 3D educational image viewer.</li>
+					<li>Design custom graphics and packaging for Google Cardboard headsets (distributed to 1000 undergraduate students).</li>
+				</ul>
+				<strong>Web Developer (May 2015 - Sept 2017)</strong>
+				<ul>
+					<li>Design and Develop MacAnatomy, the online portal to the Education Program in Anatomy at McMaster University.</li>
+					<li>Strengthen programming skills in PHP and JavaScript though development of custom WordPress plugins.</li>
+				</ul>
+				<hr>
+				<h5>Faculty of Engineering, McMaster University</h5>
+				<strong>Instructional Assistant Intern (Sept 2017 - May 2018)</strong>
+				<ul>
+					<li>Teach tutorials and labs for ENG 1D04 - Engineering Computation, McMaster Engineering’s first-year Python programming course.</li>
+					<li>Act as first point of contact for 30 teaching assistants and 900 first-year engineering students.</li>
+				</ul>
+				
+          </div>
+          <div class="col-lg-3 mr-auto aboutIcons">
+            <h3>Languages</h3>
+				<ul class="list-unstyled">
+					<li><img src="img/about/python.png"> Python </font></li>
+					<li><img src="img/about/csharp.png"> C# </font></li>
+					<li><img src="img/about/java.png"> Java </font></li>
+					<li><img src="img/about/php.png"> PHP </font></li>
+					<li><img src="img/about/html.png"> HTML/CSS </font></li>
+					<li><img src="img/about/js.png"> JavaScript/jQuery </font></li>
+					<li><img src="img/about/c++.png"> C++ </font></li>
+				</ul>
+			<h3>Frameworks/Software</h3>
+				<ul class="list-unstyled">
+					<li><img src="img/about/unity.png"> Unity</font></li>
+					<li><img src="img/about/wordpress.png"> WordPress CMS</font></li>
+					<li><img src="img/about/sql.png"> MySQL DBMS</font></li>
+					<li><img src="img/about/vue.png"> Vue.js</font></li>
+					<li><img src="img/about/bootstrap.png"> Bootstrap </font></li>
+					<li><img src="img/about/cc.png"> Adobe Creative Cloud </font></li>
+					<li><img src="img/about/reaper.png"> REAPER </font></li>
+				</ul>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" target="_blank" href="./sfwr_resume.pdf">
+            <i class="fas fa-download mr-2"></i>
+            Download Full Resume
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
-	<script src="js/footer.js"></script>
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h2 class="text-uppercase mb-4">Find Me</h2>
+            <ul class="list-inline bottom-list mb-0">
+             
+              <li class="list-inline-item">
+                <a href="https://github.com/joshmitcho" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle">
+                  <i class="fab fa-fw fa-github"></i>
+                </a>
+              </li>
+			  <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCPrLH3S2Wuy35C7b-9Tl04w" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle" >
+                  <i class="fas fa-music"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://linkedin.com/in/joshpmitchell" target="_blank" class="btn btn-outline-light btn-social text-center rounded-circle" >
+                  <i class="fab fa-fw fa-linkedin-in"></i>
+                </a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="col-md-4">
+            
+          </div>
+        </div>
+      </div>
+    </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        
+			<div class="col-lg-12">
+				<a href=" https://github.com/joshmitcho/joshmitcho.github.io" target="_blank">Source Code</a> <p><strike>Copyright &copy; </strike> Josh P Mitchell 2018</p>
+			</div>
+      </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        Back to Top
+      </a>
+    </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">VRBR: Virtual Reality Bell Ringer</h2>
+              <br>
+              <a href="https://play.google.com/store/apps/details?id=ca.MacAnatomy.VRBR2&hl=en_CA" target="_blank">
+				<img class="img-fluid mb-5" src="img/portfolio/vrbr.png" alt="">
+			  </a>
+				<p class="mb-5">
+					Virtual Reality Bell Ringer (aka VRBR) uses Google’s Cardboard VR headset to deliver stereoscopic 3D bell ringer practise questions to undergraduate Anatomy & Physiology students.<br><br>
+
+					It is available on Android and iOS.<br><br>
+
+					The anatomical dissection images are originally from A Stereoscopic Atlas of Human Anatomy by David L. Bassett, MD. These stereo images (originally published in 1952) were digitized by Massachusetts General Hospital and made available for educational purposes under a Creative Commons Attribution-NonCommercial-ShareAlike license. As such, this app is also available under the same license.<br><br>
+
+					The full license can be found here:<br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">https://creativecommons.org/licenses/by-nc-sa/3.0/</a><br><br>
+
+					The dissection images were modified to include 3D pins, which guide attention to specific aspects of the anatomy.
+				</p>
+			  <ul class="list-inline item-details">
+				<li>
+					<strong><a href="https://play.google.com/store/apps/details?id=ca.MacAnatomy.VRBR2&hl=en_CA" target="_blank">
+		Google Play Store</a>
+					</strong>
+				</li>
+				<li>
+					<strong><a href="https://itunes.apple.com/us/app/macanatomy-vrbr/id1417426312" target="_blank">App Store</a></strong>
+				</li>
+				<li>Date:
+					<strong>Sept 2018</strong>
+				</li>
+			</ul>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fas fa-times"></i>
+                Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">MacAnatomy</h2>
+              <br>
+              <a href="https://macanatomy.mcmaster.ca" target="_blank">
+				<img class="img-fluid mb-5" src="img/portfolio/macanatomy.png" alt="">
+			  </a>
+              <p class="mb-5">
+					MacAnatomy is the online portal to the Education Program in Anatomy at McMaster University.<br><br>
+					From June 2016 - Sept 2017, I completely redesigned MacAnatomy from the ground up, moving it from Joomla to Wordpress. I also created several custom WordPress plugins to manage the extensive specimen library the anatomy lab curates.<br><br>
+					The new site went live in September 2017.
+				</p>
+			  <ul class="list-inline item-details">
+					<li>
+						<strong><a href="http://web.archive.org/web/20160126232007/http://macanatomy.mcmaster.ca/" target="_blank">
+			Old MacAnatomy</a>
+						</strong>
+					</li>
+					<li>
+						<strong><a href="https://macanatomy.mcmaster.ca" target="_blank">New MacAnatomy</a></strong>
+					</li>
+					<li>Date:
+						<strong>Sept 2017</strong>
+					</li>
+			  </ul>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fas fa-times"></i>
+                Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project ARTEMIS</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/nerf_00000.png" alt="">
+              <p class="mb-5">Project ARTEMIS is an undergraduate engineering Capstone project: building an autonomous foam projectile firing turret that can hit a moving target. <br><br>
+			  The turret will identify the target and retrieves its x,y,z coordinates. This will be fed into a trajectory prediction algorithm that will predict where the target will be at some point in the future, allowing it to be intercepted by a foam projectile.<br><br>
+			  This project will be a collaboration between Software and Mechatronics Engineering students at McMaster Univeristy. Complete April 2019.
+			  </p>
+			  <ul class="list-inline item-details">
+				<li> Source Code: 
+					<strong><a href="https://github.com/joshmitcho/project-artemis/tree/master" target="_blank">Github</a></strong>
+				</li>
+				<li>Date:
+					<strong>April 2019</strong>
+				</li>
+			  </ul>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fas fa-times"></i>
+                Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Theme JavaScript -->
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
-</body>
+  </body>
 
 </html>
